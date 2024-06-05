@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.riwi.prueba_desempeno.api.dto.request.LessonReq;
 import com.riwi.prueba_desempeno.api.dto.response.LessonResp;
-import com.riwi.prueba_desempeno.api.dto.response.StudentResp;
 import com.riwi.prueba_desempeno.infrastructure.abstract_services.ILessonService;
 import com.riwi.prueba_desempeno.utils.enums.SortType;
 
