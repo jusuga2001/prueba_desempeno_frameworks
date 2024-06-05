@@ -102,7 +102,7 @@ public class StudentService implements IStudentService{
         .active(student.getClassId().getActive())
         .build();
 
-        BeanUtils.copyProperties(classBasicResp, student.getClass());
+        BeanUtils.copyProperties(classBasicResp, student.getClassId());
 
         return StudentResp.builder()
         .id(student.getId())

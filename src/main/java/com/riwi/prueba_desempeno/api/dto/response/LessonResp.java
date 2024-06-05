@@ -18,6 +18,6 @@ public class LessonResp {
     private String content;
     private LocalDateTime created_at;
     private Boolean active;
-    private ClassResp classEntity;
+    private ClassBasicResp classEntity;
     private List<MultimediaBasicResp> multimedia;
 }

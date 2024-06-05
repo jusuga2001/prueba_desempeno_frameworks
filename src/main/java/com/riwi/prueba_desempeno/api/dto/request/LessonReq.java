@@ -1,6 +1,9 @@
 package com.riwi.prueba_desempeno.api.dto.request;
 
 import java.time.LocalDateTime;
+import java.util.List;
+
+import com.riwi.prueba_desempeno.api.dto.response.MultimediaBasicResp;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -25,4 +28,5 @@ public class LessonReq {
     private Long classId;
     @NotNull
     private Boolean active;
+    private List<MultimediaReq> medias;
 }
